@@ -4,8 +4,19 @@ import React from "react";
 function ToyDisplay(props) {
   return ( 
     <div>
-        <h1>{ props.cost}</h1>
-        <img src={ process.env.PUBLIC_URL + props.image } alt="toy to purchase here" />
+        
+
+
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src={ process.env.PUBLIC_URL + props.image } />
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <h5>${ props.cost }</h5>
+                </div>
+            </div>
+        </div>
     </div>
     )
 };

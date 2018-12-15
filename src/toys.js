@@ -6,7 +6,7 @@ let toys = [
     },
     {
         id: 2,
-        image: "/assets/images/harleyQuinn.png",
+        image: "/assets/images/mrsincredible.png",
         cost: 10
     },
     {
@@ -26,7 +26,7 @@ let toys = [
     },
     {
         id: 6,
-        image: "/assets/images/harleyQuinn.png",
+        image: "/assets/images/dash.png",
         cost: 10
     },
     {
@@ -36,12 +36,12 @@ let toys = [
     },
     {
         id: 8,
-        image: "/assets/images/poisonIvy.png",
+        image: "/assets/images/minionStuart.png",
         cost: 10
     },
     {
         id: 9,
-        image: "/assets/images/puppitHatch.png",
+        image: "/assets/images/bluecar.png",
         cost: 10
     },
     {
