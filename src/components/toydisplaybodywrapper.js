@@ -7,7 +7,7 @@ function ToyDisplayBodyWrapper() {
     <div className="container">
         <div class="row">
             {toys.map(toy =>       
-                <div class="col s12 l3">
+                <div className="col s6 m6 l2">
                     <ToyDisplay 
                     image={toy.image}
                     cost={toy.cost}
