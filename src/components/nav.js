@@ -1,14 +1,13 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
   return (
         <nav>
-            <div class="nav-wrapper">
-                <a href="#" className="brand-logo">Baby Girl Game</a>
+            <div className="nav-wrapper">
+                <a href="#" className="brand-logo">{props.message}</a>
                 <ul id="nav-mobile" className="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a href="sass.html">Correct: {props.correct}</a></li>
+                    <li><a href="badges.html">Incorrect: {props.incorrect}</a></li>
                 </ul>
             </div>
         </nav>

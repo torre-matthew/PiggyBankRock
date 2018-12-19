@@ -2,47 +2,47 @@ let toys = [
     {
         id: 1,
         image: "/assets/images/chase.png",
-        cost: 5
+        cost: 1
     },
     {
         id: 2,
         image: "/assets/images/mrsincredible.png",
-        cost: 10
+        cost: 2
     },
     {
         id: 3,
         image: "/assets/images/hatch.png",
-        cost: 6
+        cost: 3
     },
     {
         id: 4,
         image: "/assets/images/hatchInEgg.png",
-        cost: 5
+        cost: 4
     },
     {
         id: 5,
         image: "/assets/images/hatchinoutegg.png",
-        cost: 10
+        cost: 5
     },
     {
         id: 6,
         image: "/assets/images/dash.png",
-        cost: 10
+        cost: 6
     },
     {
         id: 7,
         image: "/assets/images/jackjack.png",
-        cost: 10
+        cost: 7
     },
     {
         id: 8,
         image: "/assets/images/minionStuart.png",
-        cost: 10
+        cost: 8
     },
     {
         id: 9,
         image: "/assets/images/bluecar.png",
-        cost: 10
+        cost: 9
     },
     {
         id: 10,
@@ -52,12 +52,12 @@ let toys = [
     {
         id: 11,
         image: "/assets/images/skye.png",
-        cost: 10
+        cost: 11
     },
     {
         id: 12,
         image: "/assets/images/vannilope.png",
-        cost: 10
+        cost: 12
     },
 ];
 
