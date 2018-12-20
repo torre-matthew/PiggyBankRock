@@ -12,6 +12,7 @@ class App extends Component {
 
   state = {
     moneyInBank: [],
+    toyDisplayOrder: [],
     moneyInBankVal: 0,
     message: "",
     correct: 0,
@@ -22,7 +23,8 @@ class App extends Component {
     let index = Math.floor(Math.random() * (money.length - 0) + 0);
     this.setState({
       moneyInBank: money[index].moneyimgs,
-      moneyInBankVal: money[index].value
+      moneyInBankVal: money[index].value,
+      toyDisplayOrder: this.shuffle(toys)
     });
 }
 
@@ -55,6 +57,25 @@ compareToyPriceToDollarValue = (toyValue) => {
       this.setState({correct: 0, incorrect: 0});
     }
   }
+
+  shuffle = (array) => {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+  
+    // While there remain elements to shuffle...
+    while (0 !== currentIndex) {
+  
+      // Pick a remaining element...
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+  
+      // And swap it with the current element.
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+  
+    return array;
+  }
     
   render() {
     return (
@@ -72,7 +93,7 @@ compareToyPriceToDollarValue = (toyValue) => {
           )}
         </MoneyDisplayBodyWrapper>
         <ToyDisplayBodyWrapper>
-          {toys.map(toy =>       
+          {this.state.toyDisplayOrder.map(toy =>       
             <ToyDisplay
             key={toy.id}
             image={toy.image}

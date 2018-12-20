@@ -1,3 +1,6 @@
+
+// let cost = Math.floor((Math.random() * 12) + 1);
+
 let toys = [
     {
         id: 1,
