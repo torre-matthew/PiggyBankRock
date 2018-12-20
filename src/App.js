@@ -28,7 +28,6 @@ class App extends Component {
 
 componentDidMount() {
   this.selectNewObject();
-  // this.startGameOver();
 }
 
 compareToyPriceToDollarValue = (toyValue) => {
@@ -52,7 +51,7 @@ compareToyPriceToDollarValue = (toyValue) => {
 }
 
   startGameOver = () => {
-    if (this.state.incorrect >= 3) {
+    if (this.state.incorrect > 1) {
       this.setState({correct: 0, incorrect: 0});
     }
   }
