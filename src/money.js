@@ -2,11 +2,12 @@ let money = [
     {
         id: 1,
         moneyimgs: [
+            "/assets/images/ten.jpg",
             "/assets/images/one.jpeg",
             "/assets/images/one.jpeg",
             "/assets/images/one.jpeg"
         ],
-        value: 3
+        value: 13
     },
     {
         id: 2,
@@ -36,17 +37,34 @@ let money = [
     {
         id: 5,
         moneyimgs: [
-            "/assets/images/ten.jpg",
+            "/assets/images/five.jpg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
         ],
         value: 10
     },
     {
+        id: 5,
+        moneyimgs: [
+            "/assets/images/ten.jpg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
+            "/assets/images/one.jpeg",
+        ],
+        value: 14
+    },
+    {
         id: 6,
         moneyimgs: [
-            "/assets/images/one.jpeg",
-            "/assets/images/one.jpeg"
+            "/assets/images/five.jpg",
+            "/assets/images/five.jpg",
+            "/assets/images/five.jpg",
         ],
-        value: 2
+        value: 15
     },
     {
         id: 7,

@@ -5,17 +5,17 @@ let toys = [
     {
         id: 1,
         image: "/assets/images/chase.png",
-        cost: 1
+        cost: 13
     },
     {
         id: 2,
         image: "/assets/images/mrsincredible.png",
-        cost: 2
+        cost: 14
     },
     {
         id: 3,
         image: "/assets/images/hatch.png",
-        cost: 3
+        cost: 15
     },
     {
         id: 4,

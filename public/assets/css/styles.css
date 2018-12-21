@@ -64,6 +64,10 @@ nav {
     
 }
 
+.toy-area .card {
+    box-shadow: #9B2271 3px 3px;
+}
+
 .card-image {
     background-color: #E7E7E7;
 
