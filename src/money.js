@@ -29,17 +29,16 @@ let money = [
         id: 4,
         moneyimgs: [
             "/assets/images/five.jpg",
-            "/assets/images/one.jpeg",
-            
+            "/assets/images/one.jpeg", 
         ],
         value: 6
     },
     {
         id: 5,
         moneyimgs: [
-            "/assets/images/one.jpeg",
+            "/assets/images/ten.jpg",
         ],
-        value: 1
+        value: 10
     },
     {
         id: 6,
@@ -133,7 +132,7 @@ let money = [
     {
         id: 14,
         moneyimgs: [
-            "/assets/images/ten.png",
+            "/assets/images/ten.jpg",
             "/assets/images/one.jpeg",
         ],
         value: 11

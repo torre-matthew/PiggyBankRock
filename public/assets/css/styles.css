@@ -6,12 +6,18 @@ body {
 	width: 100vw;
 	flex-direction: column; */
 	font-family: 'Special Elite', cursive;
-	/* overflow-x: hidden; */
+	overflow-x: hidden;
 }
 
 nav ul li {
     padding-left: 10px;
     padding-right: 10px;
+    font-weight: bold;
+}
+
+.cor-inc {
+    font-size: 30px;
+    padding-left: 20px;
 }
 
 img {
@@ -26,7 +32,7 @@ img {
 }
 
 nav {
-    height: 90px;
+    height: 60px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -34,7 +40,9 @@ nav {
 }
 
 .prompt {
-    color: #9B2271;
+    color: #811C5E;
+    padding: 10px;
+    margin-top: 75px;
 }
 
 .money-area {
@@ -58,6 +66,7 @@ nav {
 
 .card-image {
     background-color: #E7E7E7;
+
 }
 
 .card-content {
@@ -68,4 +77,45 @@ nav {
 .toy-cost {
     background-color: #E7E7E7;
     color: #9B2271;
+}
+
+@media screen and (max-width: 420px) {
+
+nav {
+    height: 90px;
+}
+
+nav ul {
+    margin: auto;
+    position: absolute;
+}
+
+nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+.cor-inc {
+    font-size: 25px;
+}
+
+.money-area {
+    position: relative;
+    top: 80px;
+    /* min-height: 50vh; */
+    height: auto;
+    width: 100vw;
+    background: transparent;
+    text-align: center;
+    
+}
+
+.toy-area {
+    position: absolute;
+    background: transparent;
+    text-align: center;
+    
+}
+
 }
