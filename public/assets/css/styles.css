@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+
+}
+
+img {
+    height: 175px;
+    width: 150px; 
+}
+
+nav {
+    height: 90px;
+}
+
+.prompt {
+    color: white;
+}
