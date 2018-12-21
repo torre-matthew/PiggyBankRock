@@ -8,6 +8,8 @@ Every correct answer earns a point. Every incorrect answer also earns a point. A
 
 Game is over when there are 12 correct answers.
 
+[Chech it out here](https://torre-matthew.github.io/ReactGame/)
+
 #### Under the Hood
 
 * Front end only React App
