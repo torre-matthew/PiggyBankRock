@@ -3,7 +3,7 @@ import React from "react";
 
 function MoneyDisplayBodyWrapper(props) {
   return (
-    <div className="container">
+    <div className="money-area">
         <div className="row">
         <h5 className="prompt">Here's what's in your PIGGY BANK.</h5>
         {props.children}          

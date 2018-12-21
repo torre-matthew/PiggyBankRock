@@ -1,6 +1,17 @@
 body {
-    background-color: black;
+    background-image: url("../images/geometry.png");
+    background-attachment: fixed;
+    /* display: flex;
+	min-height: 100vh;
+	width: 100vw;
+	flex-direction: column; */
+	font-family: 'Special Elite', cursive;
+	/* overflow-x: hidden; */
+}
 
+nav ul li {
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 img {
@@ -8,10 +19,39 @@ img {
     width: 150px; 
 }
 
+.money-img {
+    height: 142px;
+    width: 175px;
+
+}
+
 nav {
     height: 90px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: #811C5E;
 }
 
 .prompt {
-    color: white;
+    color: #9B2271;
+}
+
+.money-area {
+    background-color: aquamarine;
+    /* position: fixed; */
+    top: 80px;
+    min-height: 50vh;
+    height: auto;
+    width: 100vw;
+    background: transparent;
+    
+}
+
+.toy-area {
+    background-color: teal;
+    position: absolute;
+    top: 455px;
+    background: transparent;
+    
 }
