@@ -38,13 +38,13 @@ compareToyPriceToDollarValue = (toyValue) => {
   let currentMoneyAvailable = this.state.moneyInBankVal;
   
   if (toyValue === currentMoneyAvailable) {
-    this.setState({message: "Correct!!"});
+    this.setState({message: "Yay! That's correct."});
     this.selectNewObject();
     currentCorrectCount++;
     this.setState({correct: currentCorrectCount});
 
   } else {
-    this.setState({message: "Whoops, try again!!"});
+    this.setState({message: "Whoops! Try Again."});
     this.selectNewObject();
     currentIncorrectCount++;
     this.setState({incorrect: currentIncorrectCount});

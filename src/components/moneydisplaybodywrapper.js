@@ -5,7 +5,7 @@ function MoneyDisplayBodyWrapper(props) {
   return (
     <div className="money-area">
         <div className="row">
-        <h5 className="prompt">Here's what's in your PIGGY BANK.</h5>
+        <h5 id="prompt-id" className="prompt">Money in your piggy bank.</h5>
         {props.children}          
         </div>
     </div> 
