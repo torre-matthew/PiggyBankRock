@@ -1,11 +1,11 @@
 {
-  "main.js": "/ReactGame/static/js/main.2e11eb06.chunk.js",
-  "main.js.map": "/ReactGame/static/js/main.2e11eb06.chunk.js.map",
-  "static/js/1.4a34e45d.chunk.js": "/ReactGame/static/js/1.4a34e45d.chunk.js",
-  "static/js/1.4a34e45d.chunk.js.map": "/ReactGame/static/js/1.4a34e45d.chunk.js.map",
-  "runtime~main.js": "/ReactGame/static/js/runtime~main.493e1f32.js",
-  "runtime~main.js.map": "/ReactGame/static/js/runtime~main.493e1f32.js.map",
-  "index.html": "/ReactGame/index.html",
-  "precache-manifest.48e840c21e13cea063cfeac5665d394b.js": "/ReactGame/precache-manifest.48e840c21e13cea063cfeac5665d394b.js",
-  "service-worker.js": "/ReactGame/service-worker.js"
+  "main.js": "/PiggyBankRock/static/js/main.ba8d6425.chunk.js",
+  "main.js.map": "/PiggyBankRock/static/js/main.ba8d6425.chunk.js.map",
+  "static/js/1.4a34e45d.chunk.js": "/PiggyBankRock/static/js/1.4a34e45d.chunk.js",
+  "static/js/1.4a34e45d.chunk.js.map": "/PiggyBankRock/static/js/1.4a34e45d.chunk.js.map",
+  "runtime~main.js": "/PiggyBankRock/static/js/runtime~main.515955fa.js",
+  "runtime~main.js.map": "/PiggyBankRock/static/js/runtime~main.515955fa.js.map",
+  "index.html": "/PiggyBankRock/index.html",
+  "precache-manifest.0834f0dc347d82dd52f3987a5c608b48.js": "/PiggyBankRock/precache-manifest.0834f0dc347d82dd52f3987a5c608b48.js",
+  "service-worker.js": "/PiggyBankRock/service-worker.js"
 }
