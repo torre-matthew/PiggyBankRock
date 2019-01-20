@@ -1,4 +1,6 @@
-I built this app as I was looking for a fun way to give my six year old some practice counting money.
+# Piggy Bank Rock!
+
+I wanted a fun way to give my six year old some practice counting money.
 
 The game presents a certain amount of money positioned as money in the kids piggy bank currently. 
 
@@ -8,14 +10,8 @@ Every correct answer earns a point. Every incorrect answer also earns a point. A
 
 Game is over when there are 12 correct answers.
 
-[Chech it out here](https://torre-matthew.github.io/ReactGame/)
+#### [Chech it out here](https://torre-matthew.github.io/PiggyBankRock/)
 
 #### Under the Hood
 
-* Front end only React App
-* Materialize used on the front-end with a little jQuery for DOM manipulation.
-### Technologies Used
-[]() | []() | []()
------------------- | -------------------- | --------------------
- 
-[React]() | [Materialize]()  | 
+* Front end only React App built with Materialize 
