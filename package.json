@@ -1,7 +1,7 @@
 {
   "name": "reactpractice",
   "version": "0.1.0",
-  "homepage": "https://torre-matthew.github.io/ReactGame/",
+  "homepage": "https://torre-matthew.github.io/PiggyBankRock/",
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
