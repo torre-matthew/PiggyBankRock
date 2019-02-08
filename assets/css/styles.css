@@ -20,6 +20,11 @@ nav ul li {
     padding-left: 20px;
 }
 
+#title {
+    font-size: 30px;
+    align-content: center;
+}
+
 img {
     height: 175px;
     width: 150px; 
