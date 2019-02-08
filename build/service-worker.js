@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PiggyBankRock/precache-manifest.0834f0dc347d82dd52f3987a5c608b48.js"
+  "/PiggyBankRock/precache-manifest.6c2a480fe7c8c3265f1e17ff4536fb11.js"
 );
 
 workbox.clientsClaim();

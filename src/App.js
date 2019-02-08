@@ -43,7 +43,7 @@ compareToyPriceToDollarValue = (toyValue) => {
     currentCorrectCount++;
     this.setState({correct: currentCorrectCount});
     window.scrollTo(0, 0);
-    window.setTimeout(this.updateMessage, 4000);
+    window.setTimeout(this.updateMessage, 3500);
     
 
   } else {
@@ -53,7 +53,7 @@ compareToyPriceToDollarValue = (toyValue) => {
     this.setState({incorrect: currentIncorrectCount});
     this.startGameOver();
     window.scrollTo(0, 0);
-    window.setTimeout(this.updateMessage, 4000);
+    window.setTimeout(this.updateMessage, 3500);
   }
 }
 
