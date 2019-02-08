@@ -42,6 +42,9 @@ compareToyPriceToDollarValue = (toyValue) => {
     this.selectNewObject();
     currentCorrectCount++;
     this.setState({correct: currentCorrectCount});
+    window.scrollTo(0, 0);
+    window.setTimeout(this.updateMessage, 4000);
+    
 
   } else {
     this.setState({message: "Whoops! Try Again."});
@@ -49,9 +52,14 @@ compareToyPriceToDollarValue = (toyValue) => {
     currentIncorrectCount++;
     this.setState({incorrect: currentIncorrectCount});
     this.startGameOver();
+    window.scrollTo(0, 0);
+    window.setTimeout(this.updateMessage, 4000);
   }
 }
 
+  updateMessage = () => {
+    this.setState({message: ""});
+  }
   startGameOver = () => {
     if (this.state.incorrect > 1) {
       this.setState({correct: 0, incorrect: 0});
